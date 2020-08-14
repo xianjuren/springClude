@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/lagou-parent/pom.xml" />
         <option value="$PROJECT_DIR$/lagou-parent/AutodeliverFeignApplication8092/pom.xml" />
+        <option value="$PROJECT_DIR$/lagou-parent/lagou-cloud-getway-9002/pom.xml" />
+        <option value="$PROJECT_DIR$/lagou-parent/lagou-cloud-gateway-9003/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

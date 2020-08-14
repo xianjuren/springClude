@@ -7,21 +7,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lagou-service-resume-8080" />
-        <module name="lagou-service-resume-8081" />
         <module name="lagou-service-autodeliver-feign-8092" />
         <module name="lagou-cloud-eureka-server" />
         <module name="lagou-cloud-hystrix-turbine-9001" />
         <module name="lagou-cloud-hystrix-dashboard-9000" />
+        <module name="lagou-cloud-gateway-9003" />
+        <module name="lagou-service-autodeliver-8090" />
         <module name="lagou-cloud-eureka-server-8761" />
         <module name="lagou-service-common" />
         <module name="lagou-service-autodeliver-8091" />
-        <module name="lagou-service-autodeliver-8090" />
+        <module name="lagou-service-resume-8081" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lagou-cloud-eureka-server" target="1.8" />
       <module name="lagou-cloud-eureka-server-8761" target="1.8" />
       <module name="lagou-cloud-eureka-server-8762" target="1.8" />
+      <module name="lagou-cloud-gateway-9002" target="1.8" />
+      <module name="lagou-cloud-gateway-9003" target="1.8" />
       <module name="lagou-cloud-hystrix-dashboard-9000" target="1.8" />
       <module name="lagou-cloud-hystrix-turbine-9001" target="1.8" />
       <module name="lagou-parent" target="1.8" />
@@ -38,6 +41,8 @@
       <module name="lagou-cloud-eureka-server" options="-parameters" />
       <module name="lagou-cloud-eureka-server-8761" options="-parameters" />
       <module name="lagou-cloud-eureka-server-8762" options="-parameters" />
+      <module name="lagou-cloud-gateway-9002" options="-parameters" />
+      <module name="lagou-cloud-gateway-9003" options="-parameters" />
       <module name="lagou-cloud-hystrix-dashboard-9000" options="-parameters" />
       <module name="lagou-cloud-hystrix-turbine-9001" options="-parameters" />
       <module name="lagou-service-autodeliver-8090" options="-parameters" />
