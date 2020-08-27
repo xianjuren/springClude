@@ -14,8 +14,16 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl #避免将驼峰 命名转换为下划线命名
-#注册到Eureka服务中心
+  #注册到Eureka服务中心
+  cloud:
+    # config客户端配置,和ConfigServer通信，并告知ConfigServer希望获取的配置信息在哪个文件中
+    config:
+      name: lagou-service-resume #配置文件名称，也就是应用名称
+      profile: dev #后缀名称：生产，测试，开发
+      label: master #分支名称
+      uri: http://localhost:9006   #ConfigServer配置中心地址
 
+  #注册到Eureka服务中心
 eureka:
   client:
     service-url:

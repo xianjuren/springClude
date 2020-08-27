@@ -16,6 +16,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <module>lagou-cloud-eureka-server</module>
         <module>lagou-cloud-hystrix-dashboard-9000</module>
         <module>lagou-cloud-hystrix-turbine-9001</module>
+        <module>lagou-cloud-configservice-9006</module>
     </modules>
 
 

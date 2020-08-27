@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/lagou-parent/lagou-cloud-configservice-9006/lagou-cloud-configservice-9006.iml" filepath="$PROJECT_DIR$/lagou-parent/lagou-cloud-configservice-9006/lagou-cloud-configservice-9006.iml" />
       <module fileurl="file://$PROJECT_DIR$/lagou-parent/lagou-cloud-eureka-server/lagou-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/lagou-parent/lagou-cloud-eureka-server/lagou-cloud-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/lagou-parent/lagou-cloud-eureka-server/lagou-cloud-eureka-server-8761.iml" filepath="$PROJECT_DIR$/lagou-parent/lagou-cloud-eureka-server/lagou-cloud-eureka-server-8761.iml" />
       <module fileurl="file://$PROJECT_DIR$/lagou-parent/lagou-cloud-gateway-9003/lagou-cloud-gateway-9003.iml" filepath="$PROJECT_DIR$/lagou-parent/lagou-cloud-gateway-9003/lagou-cloud-gateway-9003.iml" />
